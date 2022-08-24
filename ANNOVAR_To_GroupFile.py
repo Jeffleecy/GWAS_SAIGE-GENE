@@ -6,13 +6,13 @@ import os as os
 os.chdir('')
 
 # read a txt files annotated by ANNOVAR from the drive
-df=pd.read_table('',sep="\t",header=None)
+df=pd.read_table('',sep = "\t",header=None)
 
 # drop the row one which is the original column's names
-df.drop([0],axis=0,inplace=True)
+df.drop([0],axis = 0,inplace = True)
 
 # split the column recording chromosome information into a column with only integers
-df[['chr','chr_number']]=df[0].str.split(pat="r",expand=True)
+df[['chr','chr_number']] = df[0].str.split(pat="r",expand=True)
 
 # replacing X with 23
 df['chr_number'] = df['chr_number'].replace(['X'],'23')
@@ -22,18 +22,18 @@ df.rename(columns = {1:'Start',3:'Ref',4:'Alt',6:'Gene',8:'MutType',9:'Info'}, i
 
 # split the Info columns
 df['Info'].loc[1]
-df_Info=df['Info'].str.split(pat=':',expand=True)
+df_Info = df['Info'].str.split(pat=':',expand=True)
 df_Info.rename(columns = {0:'Info_Gene',1:'Info_NM',2:'Info_exon'},inplace = True)
-df_Info_Exon=df_Info['Info_exon']
+df_Info_Exon = df_Info['Info_exon']
 
 # merge the split Info columns into original dataframe
-df=df.join(df_Info_Exon)
+df = df.join(df_Info_Exon)
 
 # concatenate columns to create keys and values we intended
 ## group file variant format (1:1234:G:A)
-df['value1']=df['chr_number'].astype(str) + ":" + df['Start']
-df['value2']=df['value1'].astype(str) + ":" + df['Ref']
-df['value3']=df['value2'].astype(str) + ":" + df['Alt']
+df['value1'] = df['chr_number'].astype(str) + ":" + df['Start']
+df['value2'] = df['value1'].astype(str) + ":" + df['Ref']
+df['value3'] = df['value2'].astype(str) + ":" + df['Alt']
 
 ## create a column with the format "GeneX_exonY" as a key column
 df['Gene_Exon'] = df['Gene'].astype(str) + "_" + df['Info_exon']
@@ -42,7 +42,7 @@ df['Gene_Exon'] = df['Gene'].astype(str) + "_" + df['Info_exon']
 df_filteredMut = df[df['MutType'] == 'nonsynonymous SNV']
 
 # transform the 'value' column into an array
-value=df_filteredMut['value3'].to_numpy()
+value = df_filteredMut['value3'].to_numpy()
 
 # make arrays used for creating the group file
 ## an array of the chromosome number with duplications
@@ -60,7 +60,7 @@ df2 = df_filteredMut.drop_duplicates(subset=['Gene'])
 GeneListNoRepeat= df2['Gene'].to_numpy()
 
 ## filtered Gene_exon array without duplication
-df3=df_filteredMut.drop_duplicates(subset=['Gene_Exon'])
+df3 = df_filteredMut.drop_duplicates(subset=['Gene_Exon'])
 GeneExonListNoRepeat = df3['Gene_Exon'].to_numpy()
 
 ## filtered Gene_exon array with duplication
@@ -71,7 +71,7 @@ GeneExonListRepeated = df_filteredMut['Gene_Exon'].to_numpy()
 GeneListRepeated_List = list(GeneListRepeated)
 
 ## make Gene_Exon list for indexing
-GeneExonListRepeated_list=list(GeneExonListRepeated)
+GeneExonListRepeated_list = list(GeneExonListRepeated)
 
 
 # make a group file specific to a chromosome
