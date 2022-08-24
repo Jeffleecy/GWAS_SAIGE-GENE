@@ -1,5 +1,5 @@
 ## SAIGE-GENE
-In order to conduct rare variant association study using SAIGE-GENE, I annotated VCF files with ANNOVAR (version 2019) and transform the annotated files with a python script. The python script and some sample results are listed in this repository. 
+In order to conduct rare variant association study using SAIGE-GENE, I annotated VCF files with ANNOVAR (version 2019) and transformed the annotated files with a python script. The python script and some sample results are listed in this repository. 
 
 ### Overview of Files 
 - ANNOVAR_To_GroupFile.py
