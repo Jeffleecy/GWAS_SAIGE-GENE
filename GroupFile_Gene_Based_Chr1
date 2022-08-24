@@ -1,0 +1,32 @@
+ESPN	var	1:6488389:C:T	1:6505805:T:C	1:6508872:C:T	1:6508945:C:T	1:6512046:C:G
+ESPN	anno	missense	missense	missense	missense	missense,
+ECE1	var	1:21551798:C:T	1:21551823:C:T	1:21560060:T:C	1:21560115:G:A	1:21584028:T:C	1:21605780:G:A	1:21616573:T:C
+ECE1	anno	missense	missense	missense	missense	missense	missense	missense,
+GJB4	var	1:35226862:T:C	1:35226964:G:A	1:35227033:T:G	1:35227054:G:A	1:35227183:G:A	1:35227225:C:T	1:35227231:G:A	1:35227306:C:A	1:35227362:C:G	1:35227466:A:C	1:35227519:C:T
+GJB4	anno	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense,
+GJB3	var	1:35250837:G:A	1:35250883:G:A	1:35250910:G:A	1:35250943:G:A
+GJB3	anno	missense	missense	missense	missense,
+COL9A2	var	1:40768304:G:A	1:40768344:C:T	1:40770042:G:A	1:40773123:G:C	1:40773149:T:C	1:40776811:G:T
+COL9A2	anno	missense	missense	missense	missense	missense	missense,
+KCNQ4	var	1:41284190:C:G	1:41285565:G:A	1:41296828:T:G	1:41303409:C:G	1:41304139:T:C
+KCNQ4	anno	missense	missense	missense	missense	missense,
+HECTD3	var	1:45469396:C:T	1:45470327:C:T	1:45473105:T:C	1:45476676:C:A
+HECTD3	anno	missense	missense	missense	missense,
+BSND	var	1:55464875:A:G	1:55464986:G:A	1:55472706:G:C	1:55472752:A:G	1:55474231:G:A
+BSND	anno	missense	missense	missense	missense	missense,
+ROR1	var	1:64624768:G:A	1:64624825:G:A	1:64643129:C:A	1:64643144:C:T	1:64643277:C:T
+ROR1	anno	missense	missense	missense	missense	missense,
+CDC14A	var	1:100908544:C:T	1:100964505:T:C	1:100964808:G:A	1:100970377:G:A
+CDC14A	anno	missense	missense	missense	missense,
+COL11A1	var	1:103345315:C:T	1:103354138:A:G	1:103379918:G:A	1:103444283:G:A	1:103444970:A:T	1:103474037:A:T	1:103491461:T:G	1:103491885:C:T	1:103540197:T:C	1:103540265:G:A	1:103548497:A:C	1:103573727:G:A
+COL11A1	anno	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense,
+GPSM2	var	1:109439551:G:A	1:109440594:G:A	1:109456983:C:T	1:109461341:C:T	1:109461400:A:G	1:109465097:A:G	1:109466709:G:C	1:109472416:C:T	1:109472464:G:T
+GPSM2	anno	missense	missense	missense	missense	missense	missense	missense	missense	missense,
+KCNJ10	var	1:160011445:G:A	1:160011511:C:T	1:160011817:A:G
+KCNJ10	anno	missense	missense	missense,
+MPZ	var	1:161276180:G:A
+MPZ	anno	missense,
+USH2A	var	1:215802248:G:A	1:215807920:A:G	1:215820915:C:T	1:215847482:T:C	1:215847770:G:A	1:215848154:C:T	1:215848209:G:T	1:215848213:G:A	1:215848463:C:T	1:215848645:T:C	1:215901388:T:C	1:215901442:C:T	1:215901472:T:G	1:215901511:G:A	1:215914826:T:C	1:215916563:G:A	1:215932093:A:G	1:215953220:G:T	1:215956277:T:C	1:215960087:C:T	1:215960167:T:G	1:215972292:C:G	1:215987206:T:C	1:215987222:T:C	1:215990485:C:G	1:216011361:T:C	1:216011364:G:A	1:216017650:T:C	1:216019174:C:T	1:216051125:G:A	1:216052221:T:C	1:216052322:G:A	1:216073474:A:C	1:216138711:A:C	1:216138781:A:G	1:216166363:A:T	1:216166484:A:T	1:216172258:G:C	1:216172380:A:G	1:216172394:T:G	1:216219781:A:G	1:216243491:G:A	1:216246607:G:A	1:216256830:C:T	1:216258103:C:T	1:216258213:A:G	1:216260093:G:A	1:216260129:A:G	1:216348645:C:T	1:216348764:C:T	1:216373115:G:A	1:216373131:C:A	1:216373416:A:C	1:216419934:A:C	1:216420387:G:T	1:216462716:C:T	1:216465679:G:C	1:216497654:G:A	1:216538391:C:T	1:216595306:C:T
+USH2A	anno	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense,
+NLRP3	var	1:247582296:C:G	1:247582310:G:A	1:247586547:G:A	1:247586553:C:T	1:247586640:A:G	1:247587338:G:A	1:247588122:G:T
+NLRP3	anno	missense	missense	missense	missense	missense	missense	missense,
