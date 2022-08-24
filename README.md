@@ -1,6 +1,6 @@
 ## SAIGE-GENE
 
-### file overview
+### File Overview
 - ANNOVAR_To_GroupFile.py
   * a python script processing text files annotated from ANNOVAR and outputing group files for rare variant association study
   * time complexity of this program O(n^2)
