@@ -1,0 +1,180 @@
+ESPN_exon2	var	1:6488389:C:T
+ESPN_exon2	anno	missense,
+ESPN_exon7	var	1:6505805:T:C
+ESPN_exon7	anno	missense,
+ESPN_exon8	var	1:6508872:C:T	1:6508945:C:T
+ESPN_exon8	anno	missense	missense,
+ESPN_exon10	var	1:6512046:C:G
+ESPN_exon10	anno	missense,
+ECE1_exon15	var	1:21551798:C:T	1:21551823:C:T
+ECE1_exon15	anno	missense	missense,
+ECE1_exon12	var	1:21560060:T:C	1:21560115:G:A
+ECE1_exon12	anno	missense	missense,
+ECE1_exon5	var	1:21584028:T:C
+ECE1_exon5	anno	missense,
+ECE1_exon1	var	1:21605780:G:A	1:21616573:T:C
+ECE1_exon1	anno	missense	missense,
+GJB4_exon2	var	1:35226862:T:C	1:35226964:G:A	1:35227033:T:G	1:35227054:G:A	1:35227183:G:A	1:35227225:C:T	1:35227231:G:A	1:35227306:C:A	1:35227362:C:G	1:35227466:A:C	1:35227519:C:T
+GJB4_exon2	anno	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense	missense,
+GJB3_exon2	var	1:35250837:G:A	1:35250883:G:A	1:35250910:G:A	1:35250943:G:A
+GJB3_exon2	anno	missense	missense	missense	missense,
+COL9A2_exon30	var	1:40768304:G:A	1:40768344:C:T
+COL9A2_exon30	anno	missense	missense,
+COL9A2_exon24	var	1:40770042:G:A
+COL9A2_exon24	anno	missense,
+COL9A2_exon19	var	1:40773123:G:C	1:40773149:T:C
+COL9A2_exon19	anno	missense	missense,
+COL9A2_exon12	var	1:40776811:G:T
+COL9A2_exon12	anno	missense,
+KCNQ4_exon4	var	1:41284190:C:G
+KCNQ4_exon4	anno	missense,
+KCNQ4_exon6	var	1:41285565:G:A
+KCNQ4_exon6	anno	missense,
+KCNQ4_exon9	var	1:41296828:T:G
+KCNQ4_exon9	anno	missense,
+KCNQ4_exon12	var	1:41303409:C:G
+KCNQ4_exon12	anno	missense,
+KCNQ4_exon13	var	1:41304139:T:C
+KCNQ4_exon13	anno	missense,
+HECTD3_exon20	var	1:45469396:C:T
+HECTD3_exon20	anno	missense,
+HECTD3_exon16	var	1:45470327:C:T
+HECTD3_exon16	anno	missense,
+HECTD3_exon10	var	1:45473105:T:C
+HECTD3_exon10	anno	missense,
+HECTD3_exon1	var	1:45476676:C:A
+HECTD3_exon1	anno	missense,
+BSND_exon1	var	1:55464875:A:G	1:55464986:G:A
+BSND_exon1	anno	missense	missense,
+BSND_exon3	var	1:55472706:G:C	1:55472752:A:G
+BSND_exon3	anno	missense	missense,
+BSND_exon4	var	1:55474231:G:A
+BSND_exon4	anno	missense,
+ROR1_exon8	var	1:64624768:G:A	1:64624825:G:A
+ROR1_exon8	anno	missense	missense,
+ROR1_exon9	var	1:64643129:C:A	1:64643144:C:T	1:64643277:C:T
+ROR1_exon9	anno	missense	missense	missense,
+CDC14A_exon7	var	1:100908544:C:T
+CDC14A_exon7	anno	missense,
+CDC14A_exon14	var	1:100964505:T:C	1:100964808:G:A
+CDC14A_exon14	anno	missense	missense,
+CDC14A_exon16	var	1:100970377:G:A
+CDC14A_exon16	anno	missense,
+COL11A1_exon64	var	1:103345315:C:T
+COL11A1_exon64	anno	missense,
+COL11A1_exon60	var	1:103354138:A:G
+COL11A1_exon60	anno	missense,
+COL11A1_exon50	var	1:103379918:G:A
+COL11A1_exon50	anno	missense,
+COL11A1_exon33	var	1:103444283:G:A
+COL11A1_exon33	anno	missense,
+COL11A1_exon30	var	1:103444970:A:T
+COL11A1_exon30	anno	missense,
+COL11A1_exon13	var	1:103474037:A:T
+COL11A1_exon13	anno	missense,
+COL11A1_exon6	var	1:103491461:T:G	1:103491885:C:T
+COL11A1_exon6	anno	missense	missense,
+COL11A1_exon4	var	1:103540197:T:C	1:103540265:G:A
+COL11A1_exon4	anno	missense	missense,
+COL11A1_exon2	var	1:103548497:A:C
+COL11A1_exon2	anno	missense,
+COL11A1_exon1	var	1:103573727:G:A
+COL11A1_exon1	anno	missense,
+GPSM2_exon3	var	1:109439551:G:A
+GPSM2_exon3	anno	missense,
+GPSM2_exon5	var	1:109440594:G:A
+GPSM2_exon5	anno	missense,
+GPSM2_exon11	var	1:109456983:C:T
+GPSM2_exon11	anno	missense,
+GPSM2_exon12	var	1:109461341:C:T	1:109461400:A:G
+GPSM2_exon12	anno	missense	missense,
+GPSM2_exon13	var	1:109465097:A:G
+GPSM2_exon13	anno	missense,
+GPSM2_exon14	var	1:109466709:G:C
+GPSM2_exon14	anno	missense,
+GPSM2_exon15	var	1:109472416:C:T	1:109472464:G:T
+GPSM2_exon15	anno	missense	missense,
+KCNJ10_exon2	var	1:160011445:G:A	1:160011511:C:T	1:160011817:A:G
+KCNJ10_exon2	anno	missense	missense	missense,
+MPZ_exon4	var	1:161276180:G:A
+MPZ_exon4	anno	missense,
+USH2A_exon71	var	1:215802248:G:A
+USH2A_exon71	anno	missense,
+USH2A_exon70	var	1:215807920:A:G
+USH2A_exon70	anno	missense,
+USH2A_exon67	var	1:215820915:C:T
+USH2A_exon67	anno	missense,
+USH2A_exon63	var	1:215847482:T:C	1:215847770:G:A	1:215848154:C:T	1:215848209:G:T	1:215848213:G:A	1:215848463:C:T	1:215848645:T:C
+USH2A_exon63	anno	missense	missense	missense	missense	missense	missense	missense,
+USH2A_exon61	var	1:215901388:T:C	1:215901442:C:T	1:215901472:T:G	1:215901511:G:A
+USH2A_exon61	anno	missense	missense	missense	missense,
+USH2A_exon60	var	1:215914826:T:C
+USH2A_exon60	anno	missense,
+USH2A_exon59	var	1:215916563:G:A
+USH2A_exon59	anno	missense,
+USH2A_exon58	var	1:215932093:A:G
+USH2A_exon58	anno	missense,
+USH2A_exon55	var	1:215953220:G:T
+USH2A_exon55	anno	missense,
+USH2A_exon53	var	1:215956277:T:C
+USH2A_exon53	anno	missense,
+USH2A_exon52	var	1:215960087:C:T	1:215960167:T:G
+USH2A_exon52	anno	missense	missense,
+USH2A_exon50	var	1:215972292:C:G
+USH2A_exon50	anno	missense,
+USH2A_exon49	var	1:215987206:T:C	1:215987222:T:C
+USH2A_exon49	anno	missense	missense,
+USH2A_exon48	var	1:215990485:C:G
+USH2A_exon48	anno	missense,
+USH2A_exon47	var	1:216011361:T:C	1:216011364:G:A
+USH2A_exon47	anno	missense	missense,
+USH2A_exon46	var	1:216017650:T:C
+USH2A_exon46	anno	missense,
+USH2A_exon45	var	1:216019174:C:T
+USH2A_exon45	anno	missense,
+USH2A_exon43	var	1:216051125:G:A
+USH2A_exon43	anno	missense,
+USH2A_exon42	var	1:216052221:T:C	1:216052322:G:A
+USH2A_exon42	anno	missense	missense,
+USH2A_exon40	var	1:216073474:A:C
+USH2A_exon40	anno	missense,
+USH2A_exon37	var	1:216138711:A:C	1:216138781:A:G
+USH2A_exon37	anno	missense	missense,
+USH2A_exon35	var	1:216166363:A:T	1:216166484:A:T
+USH2A_exon35	anno	missense	missense,
+USH2A_exon34	var	1:216172258:G:C	1:216172380:A:G	1:216172394:T:G
+USH2A_exon34	anno	missense	missense	missense,
+USH2A_exon32	var	1:216219781:A:G
+USH2A_exon32	anno	missense,
+USH2A_exon30	var	1:216243491:G:A
+USH2A_exon30	anno	missense,
+USH2A_exon28	var	1:216246607:G:A
+USH2A_exon28	anno	missense,
+USH2A_exon26	var	1:216256830:C:T
+USH2A_exon26	anno	missense,
+USH2A_exon25	var	1:216258103:C:T	1:216258213:A:G
+USH2A_exon25	anno	missense	missense,
+USH2A_exon24	var	1:216260093:G:A	1:216260129:A:G
+USH2A_exon24	anno	missense	missense,
+USH2A_exon21	var	1:216348645:C:T	1:216348764:C:T
+USH2A_exon21	anno	missense	missense,
+USH2A_exon17	var	1:216373115:G:A	1:216373131:C:A	1:216373416:A:C
+USH2A_exon17	anno	missense	missense	missense,
+USH2A_exon13	var	1:216419934:A:C	1:216420387:G:T
+USH2A_exon13	anno	missense	missense,
+USH2A_exon11	var	1:216462716:C:T
+USH2A_exon11	anno	missense,
+USH2A_exon10	var	1:216465679:G:C
+USH2A_exon10	anno	missense,
+USH2A_exon7	var	1:216497654:G:A
+USH2A_exon7	anno	missense,
+USH2A_exon4	var	1:216538391:C:T
+USH2A_exon4	anno	missense,
+USH2A_exon2	var	1:216595306:C:T
+USH2A_exon2	anno	missense,
+NLRP3_exon1	var	1:247582296:C:G	1:247582310:G:A
+NLRP3_exon1	anno	missense	missense,
+NLRP3_exon2	var	1:247586547:G:A	1:247586553:C:T	1:247586640:A:G
+NLRP3_exon2	anno	missense	missense	missense,
+NLRP3_exon3	var	1:247587338:G:A	1:247588122:G:T
+NLRP3_exon3	anno	missense	missense,
