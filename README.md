@@ -9,8 +9,8 @@ In order to conduct rare variant association study using SAIGE-GENE, I annotated
 - Step2_Results_Exon_Based_Chr1.txt
   * The output text of SAIGE-GENE step2
 - Step2_Results_Gene_Based_Chr1.txt
-- GroupFile_Exon_Based_Chr1
+- GroupFile_Exon_Based_Chr1.txt
   * An example input exon-based group file for SAIGE-GENE software
-- GroupFile_Gene_Based_Chr1
+- GroupFile_Gene_Based_Chr1.txt
   * An example input gene-based group file for SAIGE-GENE software
 
