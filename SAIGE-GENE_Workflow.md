@@ -1,4 +1,4 @@
 
-Ref: \n
-SAIGE documentation website: \n
-https://saigegit.github.io/SAIGE-doc/docs/overview.html
+References:  
+1. SAIGE documentation website:  
+   https://saigegit.github.io/SAIGE-doc/docs/overview.html
