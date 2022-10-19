@@ -3,9 +3,14 @@
 ## Introduction
 
 ## Installation
+### software:
 Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE/SAIGE-GENE version. 
 
+### install :
+
 ## Overview of the workflow
+
+## Data cleansing
 
 ## SAIGE-GENE step1
 
