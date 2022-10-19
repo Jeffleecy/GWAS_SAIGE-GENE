@@ -8,7 +8,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 ### installation explanation:
 1. Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the guidence from developers of SAIGE/SAIGE-GENE.
-2. 
+2. Here, I will explain certain steps of installing SAIGE under high performance computing (HPC) environment.
 
 ## Overview of the workflow
 
