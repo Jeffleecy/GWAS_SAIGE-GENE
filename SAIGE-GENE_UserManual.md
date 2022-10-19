@@ -28,6 +28,9 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 
 ## Data cleansing
+- Before inputting VCF files into SAIGE, I suggest filtering your VCF files by using [PLINK](https://www.cog-genomics.org/plink/) or similar genomic data processing tools.
+- For instance, it may be appropriate to filter out the variants with high missing rate (e.g. 20%).
+- And do not forget to maintain the order of ref/alt in your file (e.g., --keep-allele-order command in plink) because some data cleansing tools may alter them, leading to false results.
 
 ## SAIGE-GENE step1
 
