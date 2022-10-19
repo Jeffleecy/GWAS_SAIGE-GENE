@@ -6,7 +6,9 @@
 ### software:
 Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE/SAIGE-GENE version. 
 
-### install :
+### installation explanation:
+1. Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the guidence from developers of SAIGE/SAIGE-GENE.
+2. 
 
 ## Overview of the workflow
 
