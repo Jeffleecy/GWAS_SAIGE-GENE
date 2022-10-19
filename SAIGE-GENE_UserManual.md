@@ -7,7 +7,7 @@
 Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE/SAIGE-GENE version. 
 
 ### installation explanation:
-- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the guidence from developers of SAIGE/SAIGE-GENE.
+- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the guidence from the developers of SAIGE/SAIGE-GENE.
 - Here, I will explain certain steps of installing SAIGE under high performance computing (HPC) environment, which the developers did not fully explained in their website.
 - The installation objective: install SAIGE in the R pacakge of RSAIGE in the conda environemnt
 - Steps of installation:
@@ -17,6 +17,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
    4. perform RSAIGE under the conda environemnt
    5. download R using the Rscript in the RSAIGE
    6. use R to download SAIGE as one of its package
+   7. perform SAIGE/SAIGE-GENE when RSAIGE is activated
 
 ## Overview of the workflow
 
