@@ -20,6 +20,8 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
    7. perform SAIGE/SAIGE-GENE when RSAIGE is activated
 
 ## Overview of the workflow
+![saige-siage-gene-outline](https://user-images.githubusercontent.com/80674585/196645099-cd9d9530-3f88-40c4-9b7a-620c42e1f58f.png)
+- (ref: [SAIGE/SAIGE-GENE authors' documentation](https://saigegit.github.io/SAIGE-doc/docs/overview.html))
 - 
 
 
