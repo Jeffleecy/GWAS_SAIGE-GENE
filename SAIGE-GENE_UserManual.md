@@ -34,7 +34,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - Eventually, you'll have three bfiles (.bed,.bim,.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input format, but I prefer bfiles generated from PLINK for its convenience for data cleasing)
 
 ## SAIGE-GENE step1
-- Input: bfile, phenotype files 
+- Input: bfiles, a phenotype file
 - Step 1 shell script
 ```
 #! bin/bash
@@ -47,7 +47,9 @@ Rscript step1_fitNULLGLMM.R     \
         --outputPrefix=/xxxx/xxxx/prefix \ # your output file path and prefix
         --nThreads=24   \
         --IsOverwriteVarianceRatioFile=TRUE
+
 ```
+(step1_fitNULLGLMM.R can be found in the source code file and is needed to be put under the same directory as the Step 1 shell script)
 
 
 - Step 1 phenotype file example:
@@ -57,9 +59,9 @@ SM_DE7605       70      1
 SM_DE7599       70      1
 SM_DE7598       51.25   1
 ...
-
-(0 = affected, 1 = affected; SAIGE only accepts no more than two options)
 ```
+(0 = affected, 1 = affected; SAIGE only accepts no more than two options)
+
 
 - Step 1 output files
    -  .rda files (the model-fitted file, inpect with R)
