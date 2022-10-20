@@ -37,7 +37,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - Input: bfiles, a phenotype file
 - Step 1 shell script
 ```
-#! bin/bash
+#!bin/bash
 Rscript step1_fitNULLGLMM.R     \
         --plinkFile=/xxxx/xxxx/prefix \ # your bfile path and prefix
         --phenoFile=/xxxx/xxxx/prefix.txt \ # path to access your phenotype file
@@ -77,7 +77,7 @@ SM_DE7598       51.25   1
 - Step 2 shell script
 
 ```
-#! bin/bash
+#!bin/bash
 Rscript step2_SPAtests.R        \
      --bedFile=/xxxx/xxxx/prefix.bed       \
      --bimFile=/xxxx/xxxx/prefix.bim       \
@@ -95,6 +95,32 @@ Rscript step2_SPAtests.R        \
      --annotation_in_groupTest=missense,        \ # you can specify the variant type you'd like to investigate
      --maxMAF_in_groupTest=0.01,0.04 # specify the max MAF that you hope your variants have. The higher, the more variants you can incorporate into your set-based testing; yet some of them may be less rare. 0.01, 0.04 means that SAIGE-GENE will perform with both variants with MAF lower than 0.04 and 0.01. 
 ```
+- Sample File
+```
+SM_DE7605
+SM_DE7599
+SM_DE7598
+...
+```
+(list the name of your sample in the .fam file)
+
+- Group file
+   - Basically, the group files encodes the region and variants that you use in the set-based association testing. It looks like this:
+   ```
+   ESPN_exon2	var	1:6488389:C:T
+ESPN_exon2	anno	missense,
+ESPN_exon5	var	1:6501093:T:C
+ESPN_exon5	anno	missense,
+ESPN_exon6	var	1:6504553:C:T
+ESPN_exon6	anno	missense,
+ESPN_exon7	var	1:6505837:AGCTT:-	1:6505852:CCCCCGCCC:-
+ESPN_exon7	anno	missense	missense,
+ESPN_exon8	var	1:6508717:G:A	1:6508872:C:T	1:6508945:C:T	1:6509064:G:C
+ESPN_exon8	anno	missense	missense	missense	missense,
+ESPN_exon9	var	1:6511690:C:T	1:6511749:A:G
+ESPN_exon9	anno	missense	missense,
+   ```
+   - I wrote a code to transfrom 
 
 ## References:  
 1. SAIGE documentation website:  
