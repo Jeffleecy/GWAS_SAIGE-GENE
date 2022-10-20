@@ -21,7 +21,6 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 ## Overview of the workflow
 <img src="https://user-images.githubusercontent.com/80674585/196645099-cd9d9530-3f88-40c4-9b7a-620c42e1f58f.png" width="500" height="500">
-
 - (ref: [SAIGE/SAIGE-GENE authors' documentation](https://saigegit.github.io/SAIGE-doc/docs/overview.html))
 - We can perform SAIGE (designed for variant-based association testing) and SAIGE-GENE (designed for group-based association testing) with a single SAIGE pakcage.
 - The objective of step 1 is to fit the null generalized linear mixed model, in which the output file will be used by both variant-based and group-based association testing.
@@ -51,6 +50,18 @@ Rscript step1_fitNULLGLMM.R     \
         --nThreads=24   \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
+
+
+- Step 1 phenotype file format
+```
+IID     y_quantitative  y_binary
+SM_DE7605       70      1
+SM_DE7599       70      1
+SM_DE7598       51.25   1
+...
+```
+   * 1 = affected, 0 = not affected  
+      * 1 =  
 - Step 1 output file
 
 ## SAIGE-GENE step2
