@@ -33,8 +33,10 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - If you are using whole genome sequencing (WGS) or whole exome sequencing (WES) data, you may want to target certain genomic regions (e.g., genes related to your research disease). You can apply [KGGseq](http://pmglab.top/kggseq/) to generate a VCF file focusing on the areas you are interested in. 
 
 ## SAIGE-GENE step1
-- #### Input: VCF
-- #### Output: VCF
+- Input: VCF 
+- Output: 
+- Step 1 shell script
+- Step 1 output file
 
 ## SAIGE-GENE step2
 
