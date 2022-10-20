@@ -64,10 +64,36 @@ SM_DE7598       51.25   1
 
 
 - Step 1 output files
-   -  .rda files (the model-fitted file, inpect with R)
+   -  .rda file (the model-fitted file, inpect with R)
    -  .varianceRatio.txt
 
 ## SAIGE-GENE step2
+- Input: 
+   - bfiles
+   - a sample list
+   - GMMAT model file (step 1 .rda file)
+   - variance ratio file (step 1 .varianceRatio.txt)
+   - a group file (for set-based association testing)
+- Step 1 shell script
+
+```
+Rscript step2_SPAtests.R        \
+     --bedFile=/xxxx/xxxx/prefix.bed       \
+     --bimFile=/xxxx/xxxx/prefix.bim       \
+     --famFile=/xxxx/xxxx/prefix.fam       \
+     --SAIGEOutputFile=/xxxx/xxxx/prefix \ # your output file path and prefix
+     --chrom=1 \ # specify the chromosome you want to investigate. SAIGE-GENE can only run one chromosome at a time.
+     --LOCO=TRUE    \
+     --AlleleOrder=alt-first \
+     --minMAF=0 \
+     --minMAC=0.5 \
+     --sampleFile=/xxxx/xxxx/prefix.txt \
+     --GMMATmodelFile=/xxxx/xxxx/prefix.rda \
+     --varianceRatioFile=/xxxx/xxxx/prefix.varianceRatio.txt      \
+     --groupFile=/xxxx/xxxx/prefix   \
+     --annotation_in_groupTest=missense,        \ # you can specify the variant type you'd like to investigate
+     --maxMAF_in_groupTest=0.01,0.04 # specify the max MAF that you hope your variants have. The higher, the more variants you can incorporate into your set-based testing; yet some of them may be less rare.
+```
 
 ## References:  
 1. SAIGE documentation website:  
