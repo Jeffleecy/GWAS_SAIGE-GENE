@@ -34,25 +34,23 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - Eventually, you'll have three bfiles (.bed,.bim,.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input format, but I prefer bfiles generated from PLINK for its convenience for data cleasing)
 
 ## SAIGE-GENE step1
-- Input: bfile, phenotype files
-- Output: 
-- 
+- Input: bfile, phenotype files 
 - Step 1 shell script
 ```
 #! bin/bash
 Rscript step1_fitNULLGLMM.R     \
-        --plinkFile= \ # your bfile prefix
-        --phenoFile= \ # path to access your phenotype file
+        --plinkFile=/xxxx/xxxx/prefix \ # your bfile path and prefix
+        --phenoFile=/xxxx/xxxx/prefix.txt \ # path to access your phenotype file
         --phenoCol=y_binary \
         --sampleIDColinphenoFile=IID \
         --traitType=binary        \
-        --outputPrefix=/staging/biology/u1272905/Jeff_RVAS_2022/SAIGE_SAIGEGENE_2022/SAIGE/Output/SAIGE_New/Step1/binary/Step1_binary_53_WESWGS_150_TWBWGS_VQSR_0.2_20220823 \
+        --outputPrefix=/xxxx/xxxx/prefix \ # your output file path and prefix
         --nThreads=24   \
         --IsOverwriteVarianceRatioFile=TRUE
 ```
 
 
-- Step 1 phenotype file format
+- Step 1 phenotype file example:
 ```
 IID     y_quantitative  y_binary
 SM_DE7605       70      1
@@ -63,7 +61,9 @@ SM_DE7598       51.25   1
 (0 = affected, 1 = affected; SAIGE only accepts no more than two options)
 ```
 
-- Step 1 output file
+- Step 1 output files
+   -  .rda files (the model-fitted file, inpect with R)
+   -  .varianceRatio.txt
 
 ## SAIGE-GENE step2
 
