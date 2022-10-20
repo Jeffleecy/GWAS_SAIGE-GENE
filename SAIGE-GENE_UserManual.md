@@ -92,7 +92,7 @@ Rscript step2_SPAtests.R        \
      --varianceRatioFile=/xxxx/xxxx/prefix.varianceRatio.txt      \
      --groupFile=/xxxx/xxxx/prefix   \
      --annotation_in_groupTest=missense,        \ # you can specify the variant type you'd like to investigate
-     --maxMAF_in_groupTest=0.01,0.04 # specify the max MAF that you hope your variants have. The higher, the more variants you can incorporate into your set-based testing; yet some of them may be less rare.
+     --maxMAF_in_groupTest=0.01,0.04 # specify the max MAF that you hope your variants have. The higher, the more variants you can incorporate into your set-based testing; yet some of them may be less rare. 0.01, 0.04 means that SAIGE-GENE will perform with both variants with MAF lower than 0.04 and 0.01. 
 ```
 
 ## References:  
