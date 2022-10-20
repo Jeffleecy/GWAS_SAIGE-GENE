@@ -20,7 +20,8 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
    7. perform SAIGE/SAIGE-GENE when RSAIGE is activated
 
 ## Overview of the workflow
-![saige-siage-gene-outline](https://user-images.githubusercontent.com/80674585/196645099-cd9d9530-3f88-40c4-9b7a-620c42e1f58f.png)
+<img src="https://user-images.githubusercontent.com/80674585/196645099-cd9d9530-3f88-40c4-9b7a-620c42e1f58f.png" width="500" height="500">
+
 - (ref: [SAIGE/SAIGE-GENE authors' documentation](https://saigegit.github.io/SAIGE-doc/docs/overview.html))
 - We can perform SAIGE (designed for variant-based association testing) and SAIGE-GENE (designed for group-based association testing) with a single SAIGE pakcage.
 - The objective of step 1 is to fit the null generalized linear mixed model, in which the output file will be used by both variant-based and group-based association testing.
@@ -28,14 +29,28 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 
 ## Data cleansing
-- Before inputting VCF files into SAIGE, I suggest filtering your VCF files by using [PLINK](https://www.cog-genomics.org/plink/) or similar genomic data processing tools. For instance, it may be appropriate to filter out the variants with high missing rate (e.g. 20%).
+- Before inputting bfile [what is a bfile?](https://www.cog-genomics.org/plink/1.9/input) files into SAIGE, I suggest filtering your VCF files by using [PLINK](https://www.cog-genomics.org/plink/) or similar genomic data processing tools. For instance, it may be appropriate to filter out the variants with high missing rate (e.g. 20%).
 - Do not forget to maintain the order of ref/alt in your file (e.g., --keep-allele-order command in plink) because some data cleansing tools may alter them, leading to false association results.
 - If you are using whole genome sequencing (WGS) or whole exome sequencing (WES) data, you may want to target certain genomic regions (e.g., genes related to your research disease). You can apply [KGGseq](http://pmglab.top/kggseq/) to generate a VCF file focusing on the areas you are interested in. 
+- Eventually, you'll have three bfiles (.bed,.bim,.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input format, but I prefer bfiles generated from PLINK for its convenience for data cleasing)
 
 ## SAIGE-GENE step1
-- Input: VCF 
+- Input: bfile, phenotype files
 - Output: 
+- 
 - Step 1 shell script
+```
+#! bin/bash
+Rscript step1_fitNULLGLMM.R     \
+        --plinkFile= \ # your bfile name without file extension
+        --phenoFile= \ # path to access your phenotype file
+        --phenoCol=y_binary \
+        --sampleIDColinphenoFile=IID \
+        --traitType=binary        \
+        --outputPrefix=/staging/biology/u1272905/Jeff_RVAS_2022/SAIGE_SAIGEGENE_2022/SAIGE/Output/SAIGE_New/Step1/binary/Step1_binary_53_WESWGS_150_TWBWGS_VQSR_0.2_20220823 \
+        --nThreads=24   \
+        --IsOverwriteVarianceRatioFile=TRUE
+```
 - Step 1 output file
 
 ## SAIGE-GENE step2
