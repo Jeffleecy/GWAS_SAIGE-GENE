@@ -77,6 +77,7 @@ SM_DE7598       51.25   1
 - Step 2 shell script
 
 ```
+#! bin/bash
 Rscript step2_SPAtests.R        \
      --bedFile=/xxxx/xxxx/prefix.bed       \
      --bimFile=/xxxx/xxxx/prefix.bim       \
