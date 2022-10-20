@@ -1,4 +1,4 @@
-# The workflow of using  SAIGE-GENE software
+# The workflow of using  SAIGE/SAIGE-GENE software
 
 ## Introduction
 
