@@ -109,8 +109,6 @@ SM_DE7598
    ```
    ESPN_exon6	var	1:6504553:C:T
    ESPN_exon6	anno	missense,
-   ESPN_exon7	var	1:6505837:AGCTT:-	1:6505852:CCCCCGCCC:-
-   ESPN_exon7	anno	missense	missense,
    ESPN_exon8	var	1:6508717:G:A	1:6508872:C:T	1:6508945:C:T	1:6509064:G:C
    ESPN_exon8	anno	missense	missense	missense	missense,
    ```
