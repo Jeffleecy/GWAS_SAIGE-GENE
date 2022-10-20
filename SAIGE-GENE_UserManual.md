@@ -41,7 +41,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 ```
 #! bin/bash
 Rscript step1_fitNULLGLMM.R     \
-        --plinkFile= \ # your bfile name without file extension
+        --plinkFile= \ # your bfile prefix
         --phenoFile= \ # path to access your phenotype file
         --phenoCol=y_binary \
         --sampleIDColinphenoFile=IID \
@@ -59,9 +59,10 @@ SM_DE7605       70      1
 SM_DE7599       70      1
 SM_DE7598       51.25   1
 ...
+
+(0 = affected, 1 = affected; SAIGE only accepts no more than two options)
 ```
-   * 1 = affected, 0 = not affected  
-      * 1 =  
+
 - Step 1 output file
 
 ## SAIGE-GENE step2
