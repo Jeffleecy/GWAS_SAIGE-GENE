@@ -74,7 +74,7 @@ SM_DE7598       51.25   1
    - GMMAT model file (step 1 .rda file)
    - variance ratio file (step 1 .varianceRatio.txt)
    - a group file (for set-based association testing)
-- Step 1 shell script
+- Step 2 shell script
 
 ```
 Rscript step2_SPAtests.R        \
