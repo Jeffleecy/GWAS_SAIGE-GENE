@@ -1,5 +1,5 @@
 # The workflow of using  SAIGE/SAIGE-GENE software
-
+SAIGE-GENE is developed to conduct variance component set-based tests, such as SKAT5 and SKAT-O6, for unbalanced case–control phenotypes in biobank-scale data [1].
 ## Introduction
 
 ## Installation
@@ -137,5 +137,8 @@ SM_DE7598
    (for a complete example, plese check "step2_Results_Exon_Based_Chr1.txt Go to file" in this directory)
 
 ## References:  
-1. SAIGE documentation website:  
+1. [SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests](https://www.nature.com/articles/s41588-022-01178-w)
+2. SAIGE documentation website:  
    https://saigegit.github.io/SAIGE-doc/docs/overview.html
+   
+   
