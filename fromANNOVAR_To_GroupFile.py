@@ -6,7 +6,7 @@ import os as os
 os.chdir('')
 
 # read a txt files annotated by ANNOVAR from the drive
-df=pd.read_table('',sep = "\t",header=None)
+df=pd.read_table('',sep = "\t",header=None,low_memory=False)
 
 # drop the row one which is the original column's names
 df.drop([0],axis = 0,inplace = True)
