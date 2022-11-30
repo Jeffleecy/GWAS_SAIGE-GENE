@@ -6,7 +6,7 @@ SAIGE-GENE is developed to conduct variance component set-based tests, such as S
 Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE version. 
 
 ### Installation:
-- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for guidance from the developers of SAIGE-GENE.
+- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the installation guidance from the developers of SAIGE-GENE.
 - Here, I will explain some important steps of installing SAIGE under a high-performance computing (HPC) environment, which the developers did not fully explained in their website.
 - The objective of installation is to install SAIGE in the R package of RSAIGE in the conda environment.
 - Steps of installation:
