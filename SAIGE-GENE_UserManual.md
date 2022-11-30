@@ -17,7 +17,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
    5. download R using the Rscript in the RSAIGE
    6. use R to download SAIGE as one of its package
    7. perform SAIGE/SAIGE-GENE when RSAIGE is activated
-   8. commands for activating SAIGE/SAIGE-GENE:
+   8. commands for activating RSAIGE:
  
  ```
   module load pkg/Anaconda3
