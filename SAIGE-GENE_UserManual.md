@@ -29,7 +29,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 - ref: [SAIGE/SAIGE-GENE authors' documentation](https://saigegit.github.io/SAIGE-doc/docs/overview.html)
 - We can perform SAIGE (designed for variant-based association testing) and SAIGE-GENE (designed for group-based association testing) with a single SAIGE package.
-- The objective of step 1 is to fit the null generalized linear mixed model, in which the output file will be used by both variant-based and group-based association testing.
+- The objective of step 1 is to fit a null generalized linear mixed model, in which the output file will be used by both variant-based and group-based association testing.
 - In step 2, if we input a group file (described below) to SAIGE, then the software will perform SAIGE-GENE or undergo SAIGE.
 
 
