@@ -10,7 +10,7 @@
 These codes are based on Python 3.10 and shell scripts and are executed in the Linux environment.
  
 ## Scripts
-#### SAIGE-GENE_UserManual.md:
+#### SAIGE-GENE_UserManual.md
   - a step-by-step explanation of the entire SAIGE-GENE workflow 
   - specification of input and output formats used in the SAIGE-GENE
 
