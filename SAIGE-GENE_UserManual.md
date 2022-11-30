@@ -44,7 +44,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - Input: 
    - bfiles 
    - a phenotype file
-- Step 1 shell script
+- Step 1 shell script:
 ```
 #!bin/bash
 Rscript step1_fitNULLGLMM.R     \
@@ -83,7 +83,7 @@ SM_DE7598       51.25   1
    - GMMAT model file (i.e. step1 .rda file)
    - variance ratio file (step 1 .varianceRatio.txt)
    - a group file (for set-based association testing)
-- Step 2 shell script
+- Step 2 shell script:
 
 ```
 #!bin/bash
@@ -104,7 +104,7 @@ Rscript step2_SPAtests.R        \
      --annotation_in_groupTest=missense,        \ # you can specify the variant type you would like to investigate
      --maxMAF_in_groupTest=0.01,0.04 # specify the max MAF that you hope your variants have. The higher, the more variants you can incorporate into your set-based testing; yet some of them may be less rare. 0.01, 0.04 means that SAIGE-GENE will perform with both variants with MAF lower than 0.04 and 0.01. 
 ```
-- Sample File
+- Sample File:
 ```
 SM_DE7605
 SM_DE7599
