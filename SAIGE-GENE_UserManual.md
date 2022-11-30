@@ -1,15 +1,14 @@
-# The workflow of using  SAIGE/SAIGE-GENE software
-SAIGE-GENE is developed to conduct variance component set-based tests, such as SKAT5 and SKAT-O6, for unbalanced case–control phenotypes in biobank-scale data [1].
-## Introduction
+# The workflow of SAIGE/SAIGE-GENE software
+SAIGE-GENE is developed to conduct variance component set-based tests, such as SKAT5 and SKAT-O6, for unbalanced case–control phenotypes in biobank-scale data [1]. SAIGE-GENE is incorporated into the SAIGE software.
 
 ## Installation
-### software:
-Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE/SAIGE-GENE version. 
+### Software:
+Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html) for the latest SAIGE version. 
 
-### installation explanation:
-- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for the guidence from the developers of SAIGE/SAIGE-GENE.
-- Here, I will explain certain steps of installing SAIGE under high performance computing (HPC) environment, which the developers did not fully explained in their website.
-- The objective of installation is to install SAIGE in the R pacakge of RSAIGE in the conda environemnt (this is important!).
+### Installation:
+- Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html) for guidance from the developers of SAIGE-GENE.
+- Here, I will explain some important steps of installing SAIGE under a high-performance computing (HPC) environment, which the developers did not fully explained in their website.
+- The objective of installation is to install SAIGE in the R package of RSAIGE in the conda environment.
 - Steps of installation:
    1. download the source file from [here](https://saigegit.github.io/SAIGE-doc/docs/Installation_sourcecode.html)
    2. download conda
@@ -22,9 +21,9 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 ## Overview of the workflow
 <img src="https://user-images.githubusercontent.com/80674585/196645099-cd9d9530-3f88-40c4-9b7a-620c42e1f58f.png" width="500" height="500">
 - (ref: [SAIGE/SAIGE-GENE authors' documentation](https://saigegit.github.io/SAIGE-doc/docs/overview.html))
-- We can perform SAIGE (designed for variant-based association testing) and SAIGE-GENE (designed for group-based association testing) with a single SAIGE pakcage.
+- We can perform SAIGE (designed for variant-based association testing) and SAIGE-GENE (designed for group-based association testing) with a single SAIGE package.
 - The objective of step 1 is to fit the null generalized linear mixed model, in which the output file will be used by both variant-based and group-based association testing.
-- In step 2, if we input a group file (decribed below) to SAIGE, then the software will perform SAIGE-GENE, or it will undergo SAIGE.
+- In step 2, if we input a group file (described below) to SAIGE, then the software will perform SAIGE-GENE or undergo SAIGE.
 
 
 ## Data cleansing
