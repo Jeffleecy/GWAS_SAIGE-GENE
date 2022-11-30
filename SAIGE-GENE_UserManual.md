@@ -41,7 +41,9 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - My scripts for performing data cleansing are listed [here](https://github.com/Jeffleecy/GenomicDataProcessing).
 
 ## SAIGE-GENE step1
-- Input: bfiles, a phenotype file
+- Input: 
+   - bfiles 
+   - a phenotype file
 - Step 1 shell script
 ```
 #!bin/bash
