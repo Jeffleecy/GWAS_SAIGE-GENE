@@ -28,10 +28,11 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 
 
 ## Data cleansing
-- Before inputting bfile [(what are bfiles?)](https://www.cog-genomics.org/plink/1.9/input) files into SAIGE, I suggest filtering your VCF files by using [PLINK](https://www.cog-genomics.org/plink/) or similar genomic data processing tools. For instance, it may be appropriate to filter out the variants with high missing rate (e.g. 20%).
-- Do not forget to maintain the order of ref/alt in your file (e.g., --keep-allele-order command in plink) because some data cleansing tools may alter them, leading to false association results.
+- Before inputting bfile [(what are bfiles?)](https://www.cog-genomics.org/plink/1.9/input) files into SAIGE, I suggest filtering your VCF files by using [PLINK](https://www.cog-genomics.org/plink/) or similar genomic data processing tools. For instance, it may be appropriate to filter out the variants with a high missing rate (e.g. 20%).
+- Remember to maintain the order of ref/alt in your file (e.g., --keep-allele-order command in plink) because some data cleansing tools may alter them, leading to false association results.
 - If you are using whole genome sequencing (WGS) or whole exome sequencing (WES) data, you may want to target certain genomic regions (e.g., genes related to your research disease). You can apply [KGGseq](http://pmglab.top/kggseq/) to generate a VCF file focusing on the areas you are interested in. 
-- Eventually, you'll have three bfiles (.bed,.bim,.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input format, but I prefer bfiles generated from PLINK for its convenience for data cleasing)
+- Eventually, you'll have three bfiles (.bed/.bim/.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input formats, but I prefer bfiles generated from PLINK for its convenience for data cleansing)
+- My scripts of performing data cleansing are listed [here](https://github.com/Jeffleecy/GenomicDataProcessing)
 
 ## SAIGE-GENE step1
 - Input: bfiles, a phenotype file
