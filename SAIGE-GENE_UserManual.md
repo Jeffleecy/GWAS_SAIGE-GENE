@@ -128,7 +128,7 @@ SM_DE7598
 
 - Output file
    - A file with set-based association test results and a file with single association test results
-   - The following are the column names of the set-based association test results
+   - The following are the column names of the set-based association test results:
    ```
    Region  Group   max_MAF Pvalue  Pvalue_Burden   Pvalue_SKAT     BETA_Burden     SE_Burden       MAC     MAC_case             
    MAC_control     Number_rare     Number_ultra_rare
@@ -147,7 +147,6 @@ SM_DE7598
 
 ## References:  
 1. [SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests](https://www.nature.com/articles/s41588-022-01178-w)
-2. SAIGE documentation website:  
-   https://saigegit.github.io/SAIGE-doc/docs/overview.html
+2. SAIGE documentation website: https://saigegit.github.io/SAIGE-doc/docs/overview.html
    
    
