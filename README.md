@@ -1,9 +1,17 @@
 ## SAIGE-GENE
-This directory includes scripts and examples used in the SAIGE-GENE. In order to conduct rare variant association study using SAIGE-GENE, I annotated VCF files with ANNOVAR (version 2019) and transformed the annotated files with a python script. The python script and some sample results are listed in this repository. 
 
-### Scripts 
-- SAIGE-GENE_UserManual.md
-  * step-by-step explanation of the entire SAIGE-GENE workflow 
+## Description 
+ This repository includes the codes used in:
+1. performing rare variant association study using the [SAIGE-GENE](https://saigegit.github.io/SAIGE-doc/) software
+2. generating group files required in the SAIGE-GENE software
+3. example results
+
+## Dependencies
+These codes are based on Python 3.10 and shell scripts and are executed in the Linux environment.
+ 
+## Scripts
+- SAIGE-GENE_UserManual.md:
+  * a step-by-step explanation of the entire SAIGE-GENE workflow 
   * specification of input and output formats used in SAIGE-GENE
 - ANNOVAR_To_GroupFile.py
   * A python script processing text files annotated from ANNOVAR and outputing group files for rare variant association study.
