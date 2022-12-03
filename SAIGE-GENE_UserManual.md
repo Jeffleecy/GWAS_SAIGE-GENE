@@ -40,12 +40,19 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - Eventually, you'll have three bfiles (.bed/.bim/.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input formats, but I prefer bfiles generated from PLINK for its convenience for data cleansing)
 - My scripts for performing data cleansing are listed [here](https://github.com/Jeffleecy/GenomicDataProcessing).
 - Examples of processing input files used in SAIGE
-   - Convert VCF to bfiles
+   - Converting VCF to bfiles
+   ```
+   plink2 --vcf [file name] --make-bed --keep-allele-order --allow-extra-chr --max-alleles 2 --out [output prefix] 
    ```
    
+   - Filtering bfiles with parameters
    ```
-   - Convert bfiles back to VCF
+   plink --bfile [bfile prefix] --keep-allele-order --geno 0.2 --double-id --allow-extra-chr  -make-bed --out [newfile name]
    ```
+   
+   - Convert bfiles to VCF
+   ```
+   plink --bfile [filename prefix] --recode vcf --keep-allele-order --allow-extra-chr --out [VCF prefix]
    ```
 
 ## SAIGE-GENE step1
