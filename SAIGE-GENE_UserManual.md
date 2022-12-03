@@ -39,6 +39,14 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
 - If you are using whole genome sequencing (WGS) or whole exome sequencing (WES) data, you may want to target certain genomic regions (e.g., genes related to the disease of interest). You can apply [KGGseq](http://pmglab.top/kggseq/) to generate a VCF file focusing on the areas you are interested in. 
 - Eventually, you'll have three bfiles (.bed/.bim/.fam) to run SAIGE-GENE. (SAIGE/SAIGE-GENE offers different input formats, but I prefer bfiles generated from PLINK for its convenience for data cleansing)
 - My scripts for performing data cleansing are listed [here](https://github.com/Jeffleecy/GenomicDataProcessing).
+- Examples of processing input files used in SAIGE
+   - Convert VCF to bfiles
+   ```
+   
+   ```
+   - Convert bfiles back to VCF
+   ```
+   ```
 
 ## SAIGE-GENE step1
 - Input: 
