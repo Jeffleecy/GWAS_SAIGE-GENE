@@ -47,7 +47,7 @@ Please check [here](https://saigegit.github.io/SAIGE-doc/docs/Installation.html)
    
    - Filtering bfiles with parameters
    ```
-   plink --bfile [bfile prefix] --keep-allele-order --geno 0.2 --double-id --allow-extra-chr  -make-bed --out [newfile name]
+   plink --bfile [bfile prefix] --keep-allele-order --geno 0.2 --double-id --allow-extra-chr  -make-bed --out [new file name]
    ```
    
    - Convert bfiles to VCF
